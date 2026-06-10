@@ -1,0 +1,120 @@
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  place-items: center;
+  position: relative;
+  opacity: 1;
+  height: auto;
+  width: var(--cWidth);
+  margin: auto;
+}
+.about-me {
+  padding: 40px 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  max-width: calc(100% - 15px);
+  background: rgba(20, 20, 30, 0.4);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+}
+.about-me:hover {
+  transform: translateY(-5px);
+  background: rgba(30, 30, 45, 0.5);
+  border: 1px solid rgba(194, 164, 255, 0.2);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+.about-me h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 400;
+  color: var(--accentColor);
+  margin-bottom: 15px;
+}
+
+.about-me p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  word-spacing: 1px;
+}
+
+.about-me .split-word {
+  display: inline-block;
+  margin-right: 0.3em;
+}
+
+.about-me .split-line {
+  display: block;
+}
+
+@media only screen and (min-width: 600px) {
+  .about-section {
+    justify-content: center;
+  }
+  .about-me {
+    width: 500px;
+  }
+  .about-me h3 {
+    font-size: 22px;
+    letter-spacing: 6px;
+  }
+  .about-me p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .about-me {
+    width: 500px;
+    max-width: calc(100% - 70px);
+    transform: translateY(0%);
+  }
+  .about-me h3 {
+    font-size: 25px;
+    letter-spacing: 7px;
+  }
+  .about-me p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .about-section {
+    opacity: 1;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .about-section {
+    width: var(--cWidth);
+    justify-content: flex-end;
+    max-width: 1920px;
+    height: var(--vh);
+    padding: 0px;
+    opacity: 1;
+  }
+  .about-me {
+    padding: 30px;
+    width: 45%;
+    margin-right: 2%;
+  }
+  .about-me p {
+    font-size: 1.1rem !important;
+    line-height: 1.7rem !important;
+    font-weight: 400;
+  }
+  .about-me .detail-box {
+    transition: transform 0.2s ease;
+  }
+  .about-me .detail-box:hover {
+    transform: scale(1.05);
+  }
+}
+@media only screen and (min-width: 1950px) {
+  .about-me p {
+    font-size: 1.25rem !important;
+    line-height: 1.8rem !important;
+  }
+}

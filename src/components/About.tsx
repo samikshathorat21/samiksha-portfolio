@@ -19,7 +19,6 @@ const About = () => {
           <div className="detail-box">
             <h4 style={{ color: "#fff", marginBottom: "0.5rem", fontSize: "1.2rem" }}>Competitive Programming</h4>
             <p style={{ color: "#aaa", fontSize: "1rem" }}>LeetCode: <span style={{ color: "#ffa116", fontWeight: "bold" }}>{config.competitive.leetcode}</span></p>
-            <p style={{ color: "#aaa", fontSize: "1rem", marginTop: "0.2rem" }}>CodeChef: <span style={{ color: "#c2a4ff", fontWeight: "bold" }}>{config.competitive.codechef}</span></p>
           </div>
         </div>
       </div>

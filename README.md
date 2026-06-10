@@ -6,7 +6,7 @@ A modern, high-performance **3D developer portfolio website** built with **React
 
 If you’re a developer looking for a **portfolio template** that feels premium, interactive, and memorable—this repo is for you.
 
-> Live preview: [samiksha-portfolio.samiksha-0a9.workers.dev](samiksha-portfolio.samiksha-0a9.workers.dev)
+> Live preview:[samiksha-portfolio.samiksha-0a9.workers.dev](https://samiksha-portfolio.samiksha-0a9.workers.dev/)
 
 ---
 
